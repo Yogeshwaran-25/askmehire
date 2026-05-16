@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # askmehire
 
 AI-powered Resume Intelligence Operating System for ATS-aligned, domain-aware resume generation, reusable component governance, job discovery, and application tracking.
@@ -88,3 +89,6 @@ Persistence is backed by PostgreSQL via Prisma. The interactive portal still per
 Production deployment should add managed authentication, an email provider, payment provider, Redis-backed rate limits (for multi-instance), and object storage for large artifacts.
 
 The connector layer is intentionally API-first and human-assisted. It prepares safe searches and application payloads, avoids aggressive hidden automation, and keeps each portal account isolated so one connector issue does not risk every user account.
+=======
+# askmehire
+>>>>>>> 987ef217b3ec4cbed51986632fd05b66f6f3c227
