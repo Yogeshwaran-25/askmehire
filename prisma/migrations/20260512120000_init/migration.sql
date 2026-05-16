@@ -146,6 +146,7 @@ CREATE TABLE "jobs" (
     "description" TEXT,
     "jd_hash" TEXT,
     "embedding" TEXT,
+    
     "normalized_score" DOUBLE PRECISION NOT NULL DEFAULT 0,
     "apply_mode" TEXT NOT NULL DEFAULT 'human_assisted',
     "posted_at" DATE,
